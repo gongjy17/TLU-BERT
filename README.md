@@ -22,6 +22,7 @@ CIC-IDS-2018数据集——https://www.unb.ca/cic/datasets/ids-2018.html
 微调数据集：
 https://github.com/buihuukhoi/CREME
 # 代码结构
+```text
 ├── data/                  # 数据目录
 │   ├── raw/               # 原始数据（需自行放入）
 │   └── processed/         # 预处理后的数据（脚本生成）
@@ -45,3 +46,4 @@ https://github.com/buihuukhoi/CREME
 │   └── data_loader.py     # 数据加载器
 ├── results/               # 结果保存目录（训练日志、评估报告、可视化图）
 └── requirements.txt       # 依赖清单
+```
