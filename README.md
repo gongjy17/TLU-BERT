@@ -1,10 +1,15 @@
 # TLU-BERT：基于流量—日志统一表征的多数据源入侵检测方法
+```text
 这是论文《TLU-BERT：基于流量 — 日志统一表征的多数据源入侵检测方法》的源代码仓库。通过融合网络流量数据与系统日志数据的特征，构建统一的表征空间，解决传统入侵检测方法中单一数据源信息片面、多源数据特征异构难以融合的问题，最终实现更高精度的网络入侵行为检测。
+```
 # 基础环境
+```text
 Python 3.8+
 CUDA 11.3+（可选，GPU 加速训练）
 PyTorch 1.10+ / TensorFlow 2.8+（二选一，根据模型实现框架）
+```
 # 依赖安装
+```text
 pandas>=1.5.3
 numpy>=1.23.5
 scikit-learn>=1.2.2
@@ -16,11 +21,14 @@ matplotlib>=3.6.3  # 结果可视化
 seaborn>=0.12.2
 tqdm>=4.64.1  # 进度条
 scipy>=1.9.3
+```
 # 数据集
+```text
 预训练数据集：
 CIC-IDS-2018数据集——https://www.unb.ca/cic/datasets/ids-2018.html
 微调数据集：
 https://github.com/buihuukhoi/CREME
+```
 # 代码结构
 ```text
 ├── data/                  # 数据目录
